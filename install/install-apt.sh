@@ -1,0 +1,1 @@
+sudo apt install -y net-tools bridge-utils
