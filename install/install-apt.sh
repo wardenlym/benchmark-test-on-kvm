@@ -1,1 +1,1 @@
-sudo apt install -y net-tools bridge-utils
+sudo apt install -y git wget curl zsh net-tools bridge-utils

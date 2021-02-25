@@ -1,0 +1,1 @@
+# https://touka.dev/tech/oh-my-zsh-china-mirror/
