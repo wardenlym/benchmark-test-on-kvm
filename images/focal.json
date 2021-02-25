@@ -65,7 +65,6 @@
       "sudo apt -y install ansible"
     ]
   },
-
   {
     "type": "shell",
     "execute_command": "{{ .Vars }} sudo -E bash '{{ .Path }}'",
