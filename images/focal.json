@@ -4,7 +4,7 @@
     "cpu": "2",
     "ram": "2048",
     "name": "focal",
-    "disk_size": "40000",
+    "disk_size": "20000",
     "version": "",
     "iso_checksum_type": "sha256",
     "iso_urls": "ubuntu-20.04.2-live-server-amd64.iso",
