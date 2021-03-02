@@ -1,0 +1,1 @@
+sudo cp rke_linux-amd64 /usr/local/bin/rke && sudo chmod +x /usr/local/bin/rke
