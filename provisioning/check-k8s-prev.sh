@@ -18,3 +18,9 @@ for module in br_netfilter ip6_udp_tunnel ip_set ip_set_hash_ip ip_set_hash_net 
                 fi
         fi;
 done
+
+
+# https://zhuanlan.zhihu.com/p/138554103
+# https://blog.csdn.net/engchina/article/details/103331510
+# calico: rp_filter=1
+# ubuntu20.04 default is 2
