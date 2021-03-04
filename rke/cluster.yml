@@ -1,7 +1,7 @@
 # If you intened to deploy Kubernetes in an air-gapped environment,
 # please consult the documentation on how to configure custom RKE images.
 nodes:
-- address: 172.29.40.248
+- address: 172.29.50.31
   port: "22"
   internal_address: ""
   role:
@@ -12,7 +12,7 @@ nodes:
   user: ubuntu
   docker_socket: /var/run/docker.sock
   ssh_key: ""
-  ssh_key_path: ~/.ssh/id_ed25519
+  ssh_key_path: ~/.ssh/id_rsa
   ssh_cert: ""
   ssh_cert_path: ""
   labels: {}

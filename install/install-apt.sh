@@ -1,2 +1,3 @@
-sudo apt install -y git wget curl zsh net-tools bridge-utils ansible
-sudo apt install -y ntp ipvsadm
+sudo apt install -y git wget curl zsh jq ansible \
+                    net-tools bridge-utils traceroute \
+                    ntp ipvsadm

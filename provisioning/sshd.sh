@@ -1,0 +1,1 @@
+echo "AllowTcpForwarding yes" >> /etc/ssh/sshd_config
