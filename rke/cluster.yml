@@ -3,10 +3,11 @@
 nodes:
 - address: 172.29.50.31
   port: "22"
-  internal_address: "172.29.50.31"
+  internal_address: 172.29.50.31
   role:
   - controlplane
   - etcd
+  - worker
   hostname_override: node-01
   user: ubuntu
   docker_socket: /var/run/docker.sock
@@ -16,78 +17,78 @@ nodes:
   ssh_cert_path: ""
   labels: {}
   taints: []
-- address: 172.29.50.32
-  port: "22"
-  internal_address: "172.29.50.32"
-  role:
-  - controlplane
-  - etcd
-  hostname_override: node-02
-  user: ubuntu
-  docker_socket: /var/run/docker.sock
-  ssh_key: ""
-  ssh_key_path: ~/.ssh/id_rsa
-  ssh_cert: ""
-  ssh_cert_path: ""
-  labels: {}
-  taints: []
-- address: 172.29.50.33
-  port: "22"
-  internal_address: "172.29.50.33"
-  role:
-  - controlplane
-  - etcd
-  hostname_override: node-03
-  user: ubuntu
-  docker_socket: /var/run/docker.sock
-  ssh_key: ""
-  ssh_key_path: ~/.ssh/id_rsa
-  ssh_cert: ""
-  ssh_cert_path: ""
-  labels: {}
-  taints: []
-- address: 172.29.50.34
-  port: "22"
-  internal_address: "172.29.50.34"
-  role:
-  - worker
-  hostname_override: node-04
-  user: ubuntu
-  docker_socket: /var/run/docker.sock
-  ssh_key: ""
-  ssh_key_path: ~/.ssh/id_rsa
-  ssh_cert: ""
-  ssh_cert_path: ""
-  labels: {}
-  taints: []
-- address: 172.29.50.35
-  port: "22"
-  internal_address: "172.29.50.35"
-  role:
-  - worker
-  hostname_override: node-05
-  user: ubuntu
-  docker_socket: /var/run/docker.sock
-  ssh_key: ""
-  ssh_key_path: ~/.ssh/id_rsa
-  ssh_cert: ""
-  ssh_cert_path: ""
-  labels: {}
-  taints: []
-- address: 172.29.50.36
-  port: "22"
-  internal_address: "172.29.50.36"
-  role:
-  - worker
-  hostname_override: node-06
-  user: ubuntu
-  docker_socket: /var/run/docker.sock
-  ssh_key: ""
-  ssh_key_path: ~/.ssh/id_rsa
-  ssh_cert: ""
-  ssh_cert_path: ""
-  labels: {}
-  taints: []
+# - address: 172.29.50.32
+#   port: "22"
+#   internal_address: 172.29.50.32
+#   role:
+#   - controlplane
+#   - etcd
+#   hostname_override: node-02
+#   user: ubuntu
+#   docker_socket: /var/run/docker.sock
+#   ssh_key: ""
+#   ssh_key_path: ~/.ssh/id_rsa
+#   ssh_cert: ""
+#   ssh_cert_path: ""
+#   labels: {}
+#   taints: []
+# - address: 172.29.50.33
+#   port: "22"
+#   internal_address: 172.29.50.33
+#   role:
+#   - controlplane
+#   - etcd
+#   hostname_override: node-03
+#   user: ubuntu
+#   docker_socket: /var/run/docker.sock
+#   ssh_key: ""
+#   ssh_key_path: ~/.ssh/id_rsa
+#   ssh_cert: ""
+#   ssh_cert_path: ""
+#   labels: {}
+#   taints: []
+# - address: 172.29.50.34
+#   port: "22"
+#   internal_address: 172.29.50.34
+#   role:
+#   - worker
+#   hostname_override: node-04
+#   user: ubuntu
+#   docker_socket: /var/run/docker.sock
+#   ssh_key: ""
+#   ssh_key_path: ~/.ssh/id_rsa
+#   ssh_cert: ""
+#   ssh_cert_path: ""
+#   labels: {}
+#   taints: []
+# - address: 172.29.50.35
+#   port: "22"
+#   internal_address: 172.29.50.35
+#   role:
+#   - worker
+#   hostname_override: node-05
+#   user: ubuntu
+#   docker_socket: /var/run/docker.sock
+#   ssh_key: ""
+#   ssh_key_path: ~/.ssh/id_rsa
+#   ssh_cert: ""
+#   ssh_cert_path: ""
+#   labels: {}
+#   taints: []
+# - address: 172.29.50.36
+#   port: "22"
+#   internal_address: 172.29.50.36
+#   role:
+#   - worker
+#   hostname_override: node-06
+#   user: ubuntu
+#   docker_socket: /var/run/docker.sock
+#   ssh_key: ""
+#   ssh_key_path: ~/.ssh/id_rsa
+#   ssh_cert: ""
+#   ssh_cert_path: ""
+#   labels: {}
+#   taints: []
 services:
   etcd:
     image: ""
@@ -166,7 +167,10 @@ services:
     win_extra_env: []
 network:
   plugin: calico
-  options: {}
+  options: 
+    calico_iface: eth0
+  calico_network_provider:
+    iface: ens8
   mtu: 0
   node_selector: {}
   update_strategy: null

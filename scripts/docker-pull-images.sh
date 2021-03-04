@@ -18,6 +18,8 @@
 # done
 
 docker pull rancher/rancher-agent:v2.5.5
+docker pull rancher/fleet-agent:v0.3.3
+docker pull rancher/fleet:v0.3.3
 
 docker pull rancher/coreos-etcd:v3.4.13-rancher1
 docker pull rancher/rke-tools:v0.1.69
