@@ -17,6 +17,7 @@
 #         docker rmi registry.aliyuncs.com/google_containers/$imageName
 # done
 
+docker pull rancher/rancher-agent:v2.5.5
 
 docker pull rancher/coreos-etcd:v3.4.13-rancher1
 docker pull rancher/rke-tools:v0.1.69
