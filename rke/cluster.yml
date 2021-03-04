@@ -3,7 +3,7 @@
 nodes:
 - address: 172.29.50.31
   port: "22"
-  internal_address: ""
+  internal_address: "172.29.50.31"
   role:
   - controlplane
   - etcd
@@ -18,7 +18,7 @@ nodes:
   taints: []
 - address: 172.29.50.32
   port: "22"
-  internal_address: ""
+  internal_address: "172.29.50.32"
   role:
   - controlplane
   - etcd
@@ -33,7 +33,7 @@ nodes:
   taints: []
 - address: 172.29.50.33
   port: "22"
-  internal_address: ""
+  internal_address: "172.29.50.33"
   role:
   - controlplane
   - etcd
@@ -48,7 +48,7 @@ nodes:
   taints: []
 - address: 172.29.50.34
   port: "22"
-  internal_address: ""
+  internal_address: "172.29.50.34"
   role:
   - worker
   hostname_override: node-04
@@ -62,7 +62,7 @@ nodes:
   taints: []
 - address: 172.29.50.35
   port: "22"
-  internal_address: ""
+  internal_address: "172.29.50.35"
   role:
   - worker
   hostname_override: node-05
@@ -76,7 +76,7 @@ nodes:
   taints: []
 - address: 172.29.50.36
   port: "22"
-  internal_address: ""
+  internal_address: "172.29.50.36"
   role:
   - worker
   hostname_override: node-06
