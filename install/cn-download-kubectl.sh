@@ -1,0 +1,1 @@
+wget http://rancher-mirror.cnrancher.com/kubectl/v1.19.7/linux-amd64-v1.19.7-kubectl

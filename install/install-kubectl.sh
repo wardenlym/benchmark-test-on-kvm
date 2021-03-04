@@ -1,0 +1,1 @@
+sudo cp linux-amd64-v1.19.7-kubectl /usr/local/bin/kubectl && sudo chmod +x /usr/local/bin/kubectl
