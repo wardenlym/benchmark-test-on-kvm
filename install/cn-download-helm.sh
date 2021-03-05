@@ -1,0 +1,1 @@
+wget http://rancher-mirror.cnrancher.com/helm/v3.5.2/helm-v3.5.2-linux-amd64.tar.gz

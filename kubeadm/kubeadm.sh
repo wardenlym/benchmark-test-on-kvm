@@ -6,15 +6,15 @@
 Then you can join any number of worker nodes by running the following on each as root:
 
 kubeadm join 172.29.50.30:6443 --token abcdef.0123456789abcdef \
-    --discovery-token-ca-cert-hash sha256:f3b46b10b213f7eba0bb513491b1870b54ee672b970c2a498cd5d4fa55391ecd \
-    --apiserver-advertise-address=172.29.50.33
+    --discovery-token-ca-cert-hash sha256:f3b46b10b213f7eba0bb513491b1870b54ee672b970c2a498cd5d4fa55391ecd 
 
 
 
 
   kubeadm join 172.29.50.30:6443 --token abcdef.0123456789abcdef \
     --discovery-token-ca-cert-hash sha256:f3b46b10b213f7eba0bb513491b1870b54ee672b970c2a498cd5d4fa55391ecd \
-    --control-plane
+    --control-plane \
+    --apiserver-advertise-address=172.29.50.33
 
 
 
@@ -36,7 +36,7 @@ Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
 
 
 
-kubectl apply -f https://docs.projectcalico.org/v3.16/manifests/calico.yaml
+kubectl apply -f https://docs.projectcalico.org/v3.18/manifests/calico.yaml
 
 
 
