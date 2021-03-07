@@ -21,6 +21,17 @@ yaml里增加两个参数：跳过证书验证和使用node ip通信
 --kubelet-preferred-address-types=InternalIP
 
 
+
+https://github.com/kubernetes-sigs/metrics-server/issues/157
+      hostNetwork: true #增加
+      containers:
+      - name: metrics-server
+        image: k8s.gcr.io/metrics-server-amd64:v0.3.6
+        command:
+————————————————
+版权声明：本文为CSDN博主「lampNick」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/scun_cg/article/details/106116569
+
 - name: metrics-server
         image: registry.cn-shenzhen.aliyuncs.com/carp/metrics-server-amd64:0.3.1
         imagePullPolicy: IfNotPresent
