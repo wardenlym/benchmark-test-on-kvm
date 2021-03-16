@@ -1,0 +1,35 @@
+## Component scraping etcd
+##
+kubeEtcd:
+  ## Configure secure access to the etcd cluster by loading a secret into prometheus and
+  ## specifying security configuration below. For example, with a secret named etcd-client-cert
+  ##
+  serviceMonitor:
+    scheme: https
+    insecureSkipVerify: false
+    serverName: localhost
+    caFile: /etc/prometheus/secrets/etcd-client-cert/ca.crt
+    certFile: /etc/prometheus/secrets/etcd-client-cert/peer.crt
+    keyFile: /etc/prometheus/secrets/etcd-client-cert/peer.key
+prometheus:
+  prometheusSpec:
+    volumes:
+    - name: etcd-client-cert
+      secret:
+        defaultMode: 420
+        secretName: etcd-client-cert
+    volumeMounts:
+    - mountPath: /etc/prometheus/secrets/etcd-client-cert
+      name: etcd-client-cert
+      readOnly: true
+  additionalPodMonitors:
+   - name: "demo-pj"
+     selector:
+       matchLabels:
+         monitor: "true"
+     namespaceSelector:
+      any: true
+     podMetricsEndpoints:
+      - port: monitor
+        path: /actuator/prometheus
+        scheme: http

@@ -5,9 +5,10 @@ helm repo add kube-state-metrics https://kubernetes.github.io/kube-state-metrics
 helm repo add grafana https://grafana.github.io/helm-charts
 
 helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack -f kube-prometheus-stack-values.yml --version 13.13.1 --namespace monitoring
+kubectl -n monitoring create secret generic etcd-client-cert --from-file=/etc/kubernetes/pki/etcd/peer.crt --from-file /etc/kubernetes/pki/etcd/peer.key --from-file=/etc/kubernetes/pki/etcd/ca.crt
 
 
-
+# require images
 grafana/grafana:7.4.2
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v1.9.8
 quay.io/kiwigrid/k8s-sidecar:1.10.6
@@ -38,7 +39,7 @@ quay.io/prometheus/prometheus:v2.24.0
 
 
 
-clear:
+# clear manually:
 
 kubectl delete podsecuritypolicy \
     kube-prometheus-stack-alertmanager \
