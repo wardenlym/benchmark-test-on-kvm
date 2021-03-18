@@ -1,5 +1,5 @@
 ```
-root@ubuntu-test-rpv4l:/# iperf3 -sp 12345
+root@ubuntu-test-rpv4l:/# iperf3 -s
 -----------------------------------------------------------
 Server listening on 12345
 -----------------------------------------------------------
@@ -21,12 +21,13 @@ Accepted connection from 10.44.202.225, port 45652
 [ ID] Interval           Transfer     Bitrate
 [  5]   0.00-10.00  sec  3.01 GBytes  2.58 Gbits/sec                  receiver
 -----------------------------------------------------------
-Server listening on 12345
+Server listening on 5201
 -----------------------------------------------------------
 ^Ciperf3: interrupt - the server has terminated
 ```
 
-iperf3 -c 10.44.171.47 -p12345 -i1 -M 1460
+iperf3 -c 10.44.171.47 -i1 -M 1460
+iperf3 -i1 -t10 -c 10.44.171.47
 
 容器内跨node
 
