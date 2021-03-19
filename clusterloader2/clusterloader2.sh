@@ -11,6 +11,15 @@ deployment.yaml增加
         role: worker
 ```
 
+需要image
+
+k8s.gcr.io/pause:3.1
+gcr.io/kubernetes-e2e-test-images/agnhost:2.2
 
 
-	(combined from similar events): Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "a348d21118f0cf2e2fd0a0c871d4cbabb66054caf32e5ba8da35689dc39450e5" network for pod "latency-deployment-98-6c7cfbf96c-f5kd8": networkPlugin cni failed to set up pod "latency-deployment-98-6c7cfbf96c-f5kd8_test-jf2u41-1" network: error adding host side routes for interface: cali66899ed4a23, error: route (Ifindex: 2451, Dst: 10.44.202.224/32, Scope: 253) already exists for an interface other than 'cali66899ed4a23'
+build clusterloader2
+
+git clone https://github.com/kubernetes/perf-tests
+cd perf-tests && git checkout release-1.19
+cd clusterloader2/cmd && go build -o clusterloader
+
