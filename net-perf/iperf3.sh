@@ -26,7 +26,7 @@ Server listening on 5201
 ^Ciperf3: interrupt - the server has terminated
 ```
 
-iperf3 -c 10.44.171.47 -i1 -M 1460
+
 iperf3 -i1 -t10 -c 10.44.171.47
 
 容器内跨node
