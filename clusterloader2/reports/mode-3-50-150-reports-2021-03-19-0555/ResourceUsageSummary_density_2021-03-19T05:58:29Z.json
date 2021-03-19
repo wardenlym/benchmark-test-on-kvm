@@ -1,0 +1,650 @@
+{
+  "100": [
+    {
+      "Name": "calico-kube-controllers-5bc44b965b-sz92b/calico-kube-controllers",
+      "CPU": 0.014050735,
+      "Mem": 15736832
+    },
+    {
+      "Name": "calico-node-2dd2z/calico-node",
+      "CPU": 0.093072767,
+      "Mem": 54136832
+    },
+    {
+      "Name": "calico-node-bmrwr/calico-node",
+      "CPU": 0.092885903,
+      "Mem": 68800512
+    },
+    {
+      "Name": "calico-node-dfmlr/calico-node",
+      "CPU": 0.360287881,
+      "Mem": 82034688
+    },
+    {
+      "Name": "calico-node-jp8v5/calico-node",
+      "CPU": 0.096251433,
+      "Mem": 57171968
+    },
+    {
+      "Name": "calico-node-kl7lj/calico-node",
+      "CPU": 0.087759387,
+      "Mem": 56934400
+    },
+    {
+      "Name": "calico-node-mkshg/calico-node",
+      "CPU": 0.300967551,
+      "Mem": 71098368
+    },
+    {
+      "Name": "calico-node-zbwxj/calico-node",
+      "CPU": 0.307796316,
+      "Mem": 70258688
+    },
+    {
+      "Name": "coredns-d9cc88495-44j7w/coredns",
+      "CPU": 0.005665375,
+      "Mem": 9707520
+    },
+    {
+      "Name": "coredns-d9cc88495-9pc6k/coredns",
+      "CPU": 0.007669319,
+      "Mem": 11939840
+    },
+    {
+      "Name": "coredns-d9cc88495-f2d6s/coredns",
+      "CPU": 0.007308731,
+      "Mem": 10596352
+    },
+    {
+      "Name": "coredns-d9cc88495-ttms9/coredns",
+      "CPU": 0.00789893,
+      "Mem": 10645504
+    },
+    {
+      "Name": "etcd-master-01/etcd",
+      "CPU": 0.275108025,
+      "Mem": 164134912
+    },
+    {
+      "Name": "etcd-master-02/etcd",
+      "CPU": 0.313921025,
+      "Mem": 133545984
+    },
+    {
+      "Name": "etcd-master-03/etcd",
+      "CPU": 0.293927745,
+      "Mem": 186343424
+    },
+    {
+      "Name": "kube-apiserver-master-01/kube-apiserver",
+      "CPU": 0.45422754,
+      "Mem": 569835520
+    },
+    {
+      "Name": "kube-apiserver-master-02/kube-apiserver",
+      "CPU": 0.332977321,
+      "Mem": 558686208
+    },
+    {
+      "Name": "kube-apiserver-master-03/kube-apiserver",
+      "CPU": 0.5470259,
+      "Mem": 641773568
+    },
+    {
+      "Name": "kube-controller-manager-master-01/kube-controller-manager",
+      "CPU": 0.003464061,
+      "Mem": 25542656
+    },
+    {
+      "Name": "kube-controller-manager-master-02/kube-controller-manager",
+      "CPU": 0.003699008,
+      "Mem": 25018368
+    },
+    {
+      "Name": "kube-controller-manager-master-03/kube-controller-manager",
+      "CPU": 0.12221848,
+      "Mem": 109629440
+    },
+    {
+      "Name": "kube-proxy-5gd66/kube-proxy",
+      "CPU": 0.000678861,
+      "Mem": 33128448
+    },
+    {
+      "Name": "kube-proxy-lksgf/kube-proxy",
+      "CPU": 0.009977096,
+      "Mem": 27381760
+    },
+    {
+      "Name": "kube-proxy-nww8l/kube-proxy",
+      "CPU": 0.008352695,
+      "Mem": 31834112
+    },
+    {
+      "Name": "kube-proxy-rt66n/kube-proxy",
+      "CPU": 0.01149003,
+      "Mem": 25612288
+    },
+    {
+      "Name": "kube-proxy-tbvfc/kube-proxy",
+      "CPU": 0.01775103,
+      "Mem": 26591232
+    },
+    {
+      "Name": "kube-proxy-tj5hq/kube-proxy",
+      "CPU": 0.01093962,
+      "Mem": 25944064
+    },
+    {
+      "Name": "kube-proxy-wf64w/kube-proxy",
+      "CPU": 0.008917188,
+      "Mem": 27922432
+    },
+    {
+      "Name": "kube-scheduler-master-01/kube-scheduler",
+      "CPU": 0.060256034,
+      "Mem": 41975808
+    },
+    {
+      "Name": "kube-scheduler-master-02/kube-scheduler",
+      "CPU": 0.028495237,
+      "Mem": 24637440
+    },
+    {
+      "Name": "kube-scheduler-master-03/kube-scheduler",
+      "CPU": 0.028834725,
+      "Mem": 38236160
+    },
+    {
+      "Name": "metrics-server-7c6589f8ff-kkpbz/metrics-server",
+      "CPU": 0.018737952,
+      "Mem": 24567808
+    }
+  ],
+  "50": [
+    {
+      "Name": "calico-kube-controllers-5bc44b965b-sz92b/calico-kube-controllers",
+      "CPU": 0.009513258,
+      "Mem": 15683584
+    },
+    {
+      "Name": "calico-node-2dd2z/calico-node",
+      "CPU": 0.067733047,
+      "Mem": 53993472
+    },
+    {
+      "Name": "calico-node-bmrwr/calico-node",
+      "CPU": 0.078895192,
+      "Mem": 68251648
+    },
+    {
+      "Name": "calico-node-dfmlr/calico-node",
+      "CPU": 0.213383783,
+      "Mem": 81113088
+    },
+    {
+      "Name": "calico-node-jp8v5/calico-node",
+      "CPU": 0.064944245,
+      "Mem": 56881152
+    },
+    {
+      "Name": "calico-node-kl7lj/calico-node",
+      "CPU": 0.064067583,
+      "Mem": 56791040
+    },
+    {
+      "Name": "calico-node-mkshg/calico-node",
+      "CPU": 0.236892952,
+      "Mem": 71016448
+    },
+    {
+      "Name": "calico-node-zbwxj/calico-node",
+      "CPU": 0.300179937,
+      "Mem": 69681152
+    },
+    {
+      "Name": "coredns-d9cc88495-44j7w/coredns",
+      "CPU": 0.004344338,
+      "Mem": 9707520
+    },
+    {
+      "Name": "coredns-d9cc88495-9pc6k/coredns",
+      "CPU": 0.007259874,
+      "Mem": 11935744
+    },
+    {
+      "Name": "coredns-d9cc88495-f2d6s/coredns",
+      "CPU": 0.004256094,
+      "Mem": 10596352
+    },
+    {
+      "Name": "coredns-d9cc88495-ttms9/coredns",
+      "CPU": 0.004058275,
+      "Mem": 10641408
+    },
+    {
+      "Name": "etcd-master-01/etcd",
+      "CPU": 0.217522417,
+      "Mem": 163872768
+    },
+    {
+      "Name": "etcd-master-02/etcd",
+      "CPU": 0.197271561,
+      "Mem": 133185536
+    },
+    {
+      "Name": "etcd-master-03/etcd",
+      "CPU": 0.236147914,
+      "Mem": 185982976
+    },
+    {
+      "Name": "kube-apiserver-master-01/kube-apiserver",
+      "CPU": 0.268098049,
+      "Mem": 569634816
+    },
+    {
+      "Name": "kube-apiserver-master-02/kube-apiserver",
+      "CPU": 0.246222034,
+      "Mem": 558678016
+    },
+    {
+      "Name": "kube-apiserver-master-03/kube-apiserver",
+      "CPU": 0.356065171,
+      "Mem": 641355776
+    },
+    {
+      "Name": "kube-controller-manager-master-01/kube-controller-manager",
+      "CPU": 0.002481153,
+      "Mem": 25542656
+    },
+    {
+      "Name": "kube-controller-manager-master-02/kube-controller-manager",
+      "CPU": 0.002092224,
+      "Mem": 25018368
+    },
+    {
+      "Name": "kube-controller-manager-master-03/kube-controller-manager",
+      "CPU": 0.065118655,
+      "Mem": 109629440
+    },
+    {
+      "Name": "kube-proxy-5gd66/kube-proxy",
+      "CPU": 0.000486783,
+      "Mem": 32993280
+    },
+    {
+      "Name": "kube-proxy-lksgf/kube-proxy",
+      "CPU": 0.000751721,
+      "Mem": 27373568
+    },
+    {
+      "Name": "kube-proxy-nww8l/kube-proxy",
+      "CPU": 0.007058739,
+      "Mem": 31539200
+    },
+    {
+      "Name": "kube-proxy-rt66n/kube-proxy",
+      "CPU": 0.009359238,
+      "Mem": 25456640
+    },
+    {
+      "Name": "kube-proxy-tbvfc/kube-proxy",
+      "CPU": 0.0114027,
+      "Mem": 26562560
+    },
+    {
+      "Name": "kube-proxy-tj5hq/kube-proxy",
+      "CPU": 0.005230921,
+      "Mem": 25866240
+    },
+    {
+      "Name": "kube-proxy-wf64w/kube-proxy",
+      "CPU": 0.000393254,
+      "Mem": 27873280
+    },
+    {
+      "Name": "kube-scheduler-master-01/kube-scheduler",
+      "CPU": 0.023233144,
+      "Mem": 41967616
+    },
+    {
+      "Name": "kube-scheduler-master-02/kube-scheduler",
+      "CPU": 0.024086575,
+      "Mem": 24637440
+    },
+    {
+      "Name": "kube-scheduler-master-03/kube-scheduler",
+      "CPU": 0.021106423,
+      "Mem": 38236160
+    },
+    {
+      "Name": "metrics-server-7c6589f8ff-kkpbz/metrics-server",
+      "CPU": 0.017203945,
+      "Mem": 24260608
+    }
+  ],
+  "90": [
+    {
+      "Name": "calico-kube-controllers-5bc44b965b-sz92b/calico-kube-controllers",
+      "CPU": 0.014050735,
+      "Mem": 15736832
+    },
+    {
+      "Name": "calico-node-2dd2z/calico-node",
+      "CPU": 0.075553751,
+      "Mem": 54128640
+    },
+    {
+      "Name": "calico-node-bmrwr/calico-node",
+      "CPU": 0.092885903,
+      "Mem": 68800512
+    },
+    {
+      "Name": "calico-node-dfmlr/calico-node",
+      "CPU": 0.360287881,
+      "Mem": 82034688
+    },
+    {
+      "Name": "calico-node-jp8v5/calico-node",
+      "CPU": 0.096251433,
+      "Mem": 57171968
+    },
+    {
+      "Name": "calico-node-kl7lj/calico-node",
+      "CPU": 0.081763155,
+      "Mem": 56926208
+    },
+    {
+      "Name": "calico-node-mkshg/calico-node",
+      "CPU": 0.300967551,
+      "Mem": 71098368
+    },
+    {
+      "Name": "calico-node-zbwxj/calico-node",
+      "CPU": 0.307796316,
+      "Mem": 70258688
+    },
+    {
+      "Name": "coredns-d9cc88495-44j7w/coredns",
+      "CPU": 0.005086534,
+      "Mem": 9707520
+    },
+    {
+      "Name": "coredns-d9cc88495-9pc6k/coredns",
+      "CPU": 0.007669319,
+      "Mem": 11939840
+    },
+    {
+      "Name": "coredns-d9cc88495-f2d6s/coredns",
+      "CPU": 0.00480514,
+      "Mem": 10596352
+    },
+    {
+      "Name": "coredns-d9cc88495-ttms9/coredns",
+      "CPU": 0.00789893,
+      "Mem": 10645504
+    },
+    {
+      "Name": "etcd-master-01/etcd",
+      "CPU": 0.275108025,
+      "Mem": 164134912
+    },
+    {
+      "Name": "etcd-master-02/etcd",
+      "CPU": 0.313921025,
+      "Mem": 133545984
+    },
+    {
+      "Name": "etcd-master-03/etcd",
+      "CPU": 0.274903509,
+      "Mem": 186298368
+    },
+    {
+      "Name": "kube-apiserver-master-01/kube-apiserver",
+      "CPU": 0.326304957,
+      "Mem": 569835520
+    },
+    {
+      "Name": "kube-apiserver-master-02/kube-apiserver",
+      "CPU": 0.332977321,
+      "Mem": 558686208
+    },
+    {
+      "Name": "kube-apiserver-master-03/kube-apiserver",
+      "CPU": 0.5470259,
+      "Mem": 641773568
+    },
+    {
+      "Name": "kube-controller-manager-master-01/kube-controller-manager",
+      "CPU": 0.003464061,
+      "Mem": 25542656
+    },
+    {
+      "Name": "kube-controller-manager-master-02/kube-controller-manager",
+      "CPU": 0.003305935,
+      "Mem": 25018368
+    },
+    {
+      "Name": "kube-controller-manager-master-03/kube-controller-manager",
+      "CPU": 0.109677894,
+      "Mem": 109629440
+    },
+    {
+      "Name": "kube-proxy-5gd66/kube-proxy",
+      "CPU": 0.000678861,
+      "Mem": 33128448
+    },
+    {
+      "Name": "kube-proxy-lksgf/kube-proxy",
+      "CPU": 0.008972695,
+      "Mem": 27381760
+    },
+    {
+      "Name": "kube-proxy-nww8l/kube-proxy",
+      "CPU": 0.008352695,
+      "Mem": 31834112
+    },
+    {
+      "Name": "kube-proxy-rt66n/kube-proxy",
+      "CPU": 0.01149003,
+      "Mem": 25612288
+    },
+    {
+      "Name": "kube-proxy-tbvfc/kube-proxy",
+      "CPU": 0.01775103,
+      "Mem": 26591232
+    },
+    {
+      "Name": "kube-proxy-tj5hq/kube-proxy",
+      "CPU": 0.01093962,
+      "Mem": 25882624
+    },
+    {
+      "Name": "kube-proxy-wf64w/kube-proxy",
+      "CPU": 0.008776459,
+      "Mem": 27922432
+    },
+    {
+      "Name": "kube-scheduler-master-01/kube-scheduler",
+      "CPU": 0.048744055,
+      "Mem": 41975808
+    },
+    {
+      "Name": "kube-scheduler-master-02/kube-scheduler",
+      "CPU": 0.028495237,
+      "Mem": 24637440
+    },
+    {
+      "Name": "kube-scheduler-master-03/kube-scheduler",
+      "CPU": 0.028834725,
+      "Mem": 38236160
+    },
+    {
+      "Name": "metrics-server-7c6589f8ff-kkpbz/metrics-server",
+      "CPU": 0.018737952,
+      "Mem": 24567808
+    }
+  ],
+  "99": [
+    {
+      "Name": "calico-kube-controllers-5bc44b965b-sz92b/calico-kube-controllers",
+      "CPU": 0.014050735,
+      "Mem": 15736832
+    },
+    {
+      "Name": "calico-node-2dd2z/calico-node",
+      "CPU": 0.093072767,
+      "Mem": 54136832
+    },
+    {
+      "Name": "calico-node-bmrwr/calico-node",
+      "CPU": 0.092885903,
+      "Mem": 68800512
+    },
+    {
+      "Name": "calico-node-dfmlr/calico-node",
+      "CPU": 0.360287881,
+      "Mem": 82034688
+    },
+    {
+      "Name": "calico-node-jp8v5/calico-node",
+      "CPU": 0.096251433,
+      "Mem": 57171968
+    },
+    {
+      "Name": "calico-node-kl7lj/calico-node",
+      "CPU": 0.087759387,
+      "Mem": 56934400
+    },
+    {
+      "Name": "calico-node-mkshg/calico-node",
+      "CPU": 0.300967551,
+      "Mem": 71098368
+    },
+    {
+      "Name": "calico-node-zbwxj/calico-node",
+      "CPU": 0.307796316,
+      "Mem": 70258688
+    },
+    {
+      "Name": "coredns-d9cc88495-44j7w/coredns",
+      "CPU": 0.005665375,
+      "Mem": 9707520
+    },
+    {
+      "Name": "coredns-d9cc88495-9pc6k/coredns",
+      "CPU": 0.007669319,
+      "Mem": 11939840
+    },
+    {
+      "Name": "coredns-d9cc88495-f2d6s/coredns",
+      "CPU": 0.007308731,
+      "Mem": 10596352
+    },
+    {
+      "Name": "coredns-d9cc88495-ttms9/coredns",
+      "CPU": 0.00789893,
+      "Mem": 10645504
+    },
+    {
+      "Name": "etcd-master-01/etcd",
+      "CPU": 0.275108025,
+      "Mem": 164134912
+    },
+    {
+      "Name": "etcd-master-02/etcd",
+      "CPU": 0.313921025,
+      "Mem": 133545984
+    },
+    {
+      "Name": "etcd-master-03/etcd",
+      "CPU": 0.293927745,
+      "Mem": 186343424
+    },
+    {
+      "Name": "kube-apiserver-master-01/kube-apiserver",
+      "CPU": 0.45422754,
+      "Mem": 569835520
+    },
+    {
+      "Name": "kube-apiserver-master-02/kube-apiserver",
+      "CPU": 0.332977321,
+      "Mem": 558686208
+    },
+    {
+      "Name": "kube-apiserver-master-03/kube-apiserver",
+      "CPU": 0.5470259,
+      "Mem": 641773568
+    },
+    {
+      "Name": "kube-controller-manager-master-01/kube-controller-manager",
+      "CPU": 0.003464061,
+      "Mem": 25542656
+    },
+    {
+      "Name": "kube-controller-manager-master-02/kube-controller-manager",
+      "CPU": 0.003699008,
+      "Mem": 25018368
+    },
+    {
+      "Name": "kube-controller-manager-master-03/kube-controller-manager",
+      "CPU": 0.12221848,
+      "Mem": 109629440
+    },
+    {
+      "Name": "kube-proxy-5gd66/kube-proxy",
+      "CPU": 0.000678861,
+      "Mem": 33128448
+    },
+    {
+      "Name": "kube-proxy-lksgf/kube-proxy",
+      "CPU": 0.009977096,
+      "Mem": 27381760
+    },
+    {
+      "Name": "kube-proxy-nww8l/kube-proxy",
+      "CPU": 0.008352695,
+      "Mem": 31834112
+    },
+    {
+      "Name": "kube-proxy-rt66n/kube-proxy",
+      "CPU": 0.01149003,
+      "Mem": 25612288
+    },
+    {
+      "Name": "kube-proxy-tbvfc/kube-proxy",
+      "CPU": 0.01775103,
+      "Mem": 26591232
+    },
+    {
+      "Name": "kube-proxy-tj5hq/kube-proxy",
+      "CPU": 0.01093962,
+      "Mem": 25944064
+    },
+    {
+      "Name": "kube-proxy-wf64w/kube-proxy",
+      "CPU": 0.008917188,
+      "Mem": 27922432
+    },
+    {
+      "Name": "kube-scheduler-master-01/kube-scheduler",
+      "CPU": 0.060256034,
+      "Mem": 41975808
+    },
+    {
+      "Name": "kube-scheduler-master-02/kube-scheduler",
+      "CPU": 0.028495237,
+      "Mem": 24637440
+    },
+    {
+      "Name": "kube-scheduler-master-03/kube-scheduler",
+      "CPU": 0.028834725,
+      "Mem": 38236160
+    },
+    {
+      "Name": "metrics-server-7c6589f8ff-kkpbz/metrics-server",
+      "CPU": 0.018737952,
+      "Mem": 24567808
+    }
+  ]
+}

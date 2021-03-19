@@ -1,0 +1,324 @@
+{
+  "pods": [
+    {
+      "name": "coredns-d9cc88495-44j7w",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-5gd66",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-apiserver-master-02",
+      "containers": [
+        {
+          "name": "kube-apiserver",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-controller-manager-master-02",
+      "containers": [
+        {
+          "name": "kube-controller-manager",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-nww8l",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-apiserver-master-01",
+      "containers": [
+        {
+          "name": "kube-apiserver",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "calico-node-bmrwr",
+      "containers": [
+        {
+          "name": "calico-node",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-scheduler-master-03",
+      "containers": [
+        {
+          "name": "kube-scheduler",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Error,Message:,StartedAt:2021-03-05 02:20:11 +0000 UTC,FinishedAt:2021-03-08 01:27:13 +0000 UTC,ContainerID:docker://5a68f719d510d1938a4ee06118bd737a7631a3144f151508d72317b58631497a,}"
+        }
+      ]
+    },
+    {
+      "name": "calico-node-dfmlr",
+      "containers": [
+        {
+          "name": "calico-node",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-scheduler-master-02",
+      "containers": [
+        {
+          "name": "kube-scheduler",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Error,Message:,StartedAt:2021-03-08 01:26:44 +0000 UTC,FinishedAt:2021-03-18 06:36:45 +0000 UTC,ContainerID:docker://42eaf1be53f2f529db913ddc0e38641db2d70cc6913db94f960b9a0be750f1c8,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-scheduler-master-01",
+      "containers": [
+        {
+          "name": "kube-scheduler",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-tj5hq",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "calico-node-zbwxj",
+      "containers": [
+        {
+          "name": "calico-node",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-rt66n",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "coredns-d9cc88495-ttms9",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-controller-manager-master-01",
+      "containers": [
+        {
+          "name": "kube-controller-manager",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Error,Message:,StartedAt:2021-03-08 01:25:51 +0000 UTC,FinishedAt:2021-03-08 01:42:45 +0000 UTC,ContainerID:docker://14a31b13506564f1f6cf4224b278e9deeb3819772f5943b1b9b49f721b24dd50,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-tbvfc",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "coredns-d9cc88495-f2d6s",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "calico-node-kl7lj",
+      "containers": [
+        {
+          "name": "calico-node",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "etcd-master-02",
+      "containers": [
+        {
+          "name": "etcd",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "etcd-master-01",
+      "containers": [
+        {
+          "name": "etcd",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-lksgf",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "calico-node-2dd2z",
+      "containers": [
+        {
+          "name": "calico-node",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "calico-kube-controllers-5bc44b965b-sz92b",
+      "containers": [
+        {
+          "name": "calico-kube-controllers",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-apiserver-master-03",
+      "containers": [
+        {
+          "name": "kube-apiserver",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "coredns-d9cc88495-9pc6k",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "calico-node-mkshg",
+      "containers": [
+        {
+          "name": "calico-node",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-controller-manager-master-03",
+      "containers": [
+        {
+          "name": "kube-controller-manager",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Error,Message:,StartedAt:2021-03-05 02:20:11 +0000 UTC,FinishedAt:2021-03-08 01:27:13 +0000 UTC,ContainerID:docker://6124c6af0abf30432dbba36690c1a7a88bc20f544460e0c06b8d916d7cc5a267,}"
+        }
+      ]
+    },
+    {
+      "name": "metrics-server-7c6589f8ff-kkpbz",
+      "containers": [
+        {
+          "name": "metrics-server",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "calico-node-jp8v5",
+      "containers": [
+        {
+          "name": "calico-node",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-wf64w",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "etcd-master-03",
+      "containers": [
+        {
+          "name": "etcd",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    }
+  ]
+}

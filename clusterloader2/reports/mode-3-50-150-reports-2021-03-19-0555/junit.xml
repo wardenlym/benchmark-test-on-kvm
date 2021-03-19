@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="ClusterLoaderV2" tests="0" failures="2" errors="0" time="192.655">
+      <testcase name="density overall (./mode-3-50-150-reports-2021-03-19-0555/config.yaml)" classname="ClusterLoaderV2" time="192.65521973">
+          <failure type="Failure">:0&#xA;[measurement call PodStartupLatency - PodStartupLatency error: pod startup: too high latency 99th percentile: got 5.792141111s expected: 5s]&#xA;:0</failure>
+      </testcase>
+      <testcase name="density: [step: 01] Starting measurements" classname="ClusterLoaderV2" time="0.147937888"></testcase>
+      <testcase name="density: [step: 02] Starting saturation pod measurements" classname="ClusterLoaderV2" time="0.106842488"></testcase>
+      <testcase name="density: [step: 03] Creating saturation pods" classname="ClusterLoaderV2" time="0.203053392"></testcase>
+      <testcase name="density: [step: 04] Waiting for saturation pods to be running" classname="ClusterLoaderV2" time="39.910627788"></testcase>
+      <testcase name="density: [step: 05] Collecting saturation pod measurements" classname="ClusterLoaderV2" time="0.033556375"></testcase>
+      <testcase name="density: [step: 06] Starting latency pod measurements" classname="ClusterLoaderV2" time="0.101089751"></testcase>
+      <testcase name="density: [step: 07] Creating latency pods" classname="ClusterLoaderV2" time="30.08866137"></testcase>
+      <testcase name="density: [step: 08] Waiting for latency pods to be running" classname="ClusterLoaderV2" time="14.864752917"></testcase>
+      <testcase name="density: [step: 09] Deleting latency pods" classname="ClusterLoaderV2" time="30.095684396"></testcase>
+      <testcase name="density: [step: 10] Waiting for latency pods to be deleted" classname="ClusterLoaderV2" time="14.654231993"></testcase>
+      <testcase name="density: [step: 11] Collecting pod startup latency" classname="ClusterLoaderV2" time="0.133967219">
+          <failure type="Failure">:0&#xA;[measurement call PodStartupLatency - PodStartupLatency error: pod startup: too high latency 99th percentile: got 5.792141111s expected: 5s]&#xA;:0</failure>
+      </testcase>
+      <testcase name="density: [step: 12] Deleting saturation pods" classname="ClusterLoaderV2" time="0.2026863"></testcase>
+      <testcase name="density: [step: 13] Waiting for saturation pods to be deleted" classname="ClusterLoaderV2" time="39.883359852"></testcase>
+      <testcase name="density: [step: 14] Collecting measurements" classname="ClusterLoaderV2" time="2.135019803"></testcase>
+  </testsuite>

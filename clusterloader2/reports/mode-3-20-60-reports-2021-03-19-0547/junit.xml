@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="ClusterLoaderV2" tests="0" failures="0" errors="0" time="101.198">
+      <testcase name="density overall (./mode-3-20-60-reports-2021-03-19-0547/config.yaml)" classname="ClusterLoaderV2" time="101.198877146"></testcase>
+      <testcase name="density: [step: 01] Starting measurements" classname="ClusterLoaderV2" time="0.102633067"></testcase>
+      <testcase name="density: [step: 02] Starting saturation pod measurements" classname="ClusterLoaderV2" time="0.101999365"></testcase>
+      <testcase name="density: [step: 03] Creating saturation pods" classname="ClusterLoaderV2" time="0.201890296"></testcase>
+      <testcase name="density: [step: 04] Waiting for saturation pods to be running" classname="ClusterLoaderV2" time="14.874064445"></testcase>
+      <testcase name="density: [step: 05] Collecting saturation pod measurements" classname="ClusterLoaderV2" time="0.02199418"></testcase>
+      <testcase name="density: [step: 06] Starting latency pod measurements" classname="ClusterLoaderV2" time="0.101637143"></testcase>
+      <testcase name="density: [step: 07] Creating latency pods" classname="ClusterLoaderV2" time="12.039099241"></testcase>
+      <testcase name="density: [step: 08] Waiting for latency pods to be running" classname="ClusterLoaderV2" time="9.86085773"></testcase>
+      <testcase name="density: [step: 09] Deleting latency pods" classname="ClusterLoaderV2" time="12.039685992"></testcase>
+      <testcase name="density: [step: 10] Waiting for latency pods to be deleted" classname="ClusterLoaderV2" time="14.672777401"></testcase>
+      <testcase name="density: [step: 11] Collecting pod startup latency" classname="ClusterLoaderV2" time="0.038354016"></testcase>
+      <testcase name="density: [step: 12] Deleting saturation pods" classname="ClusterLoaderV2" time="0.202195986"></testcase>
+      <testcase name="density: [step: 13] Waiting for saturation pods to be deleted" classname="ClusterLoaderV2" time="19.868870132"></testcase>
+      <testcase name="density: [step: 14] Collecting measurements" classname="ClusterLoaderV2" time="1.981736385"></testcase>
+  </testsuite>
