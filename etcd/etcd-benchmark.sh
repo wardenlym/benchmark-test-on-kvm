@@ -128,6 +128,38 @@ Response time histogram:
   0.0367 [0]    |
   0.0411 [1]    |
   0.0454 [1]    |
+   10000 / 10000 Boooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo! 100.00% 30s
+
+Summary:
+  Total:        30.3524 secs.
+  Slowest:      0.0531 secs.
+  Fastest:      0.0015 secs.
+  Average:      0.0030 secs.
+  Stddev:       0.0012 secs.
+  Requests/sec: 329.4636
+
+Response time histogram:
+  0.0015 [1]    |
+  0.0067 [9850] |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.0119 [134]  |
+  0.0170 [14]   |
+  0.0222 [0]    |
+  0.0273 [0]    |
+  0.0325 [0]    |
+  0.0376 [0]    |
+  0.0428 [0]    |
+  0.0479 [0]    |
+  0.0531 [1]    |
+
+Latency distribution:
+  10% in 0.0021 secs.
+  25% in 0.0024 secs.
+  50% in 0.0028 secs.
+  75% in 0.0033 secs.
+  90% in 0.0041 secs.
+  95% in 0.0048 secs.
+  99% in 0.0077 secs.
+  99.9% in 0.0131 secs.
 ```
 
 ```
