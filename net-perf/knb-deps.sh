@@ -101,3 +101,32 @@
       server ram = 1537 MB
 =========================================================
 ```
+
+
+node上直接测：
+```
+root@worker-01:~# iperf3 -s
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Accepted connection from 172.29.50.42, port 58286
+[  5] local 172.29.50.41 port 5201 connected to 172.29.50.42 port 58288
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  2.15 GBytes  18.5 Gbits/sec
+[  5]   1.00-2.00   sec  2.17 GBytes  18.6 Gbits/sec
+[  5]   2.00-3.00   sec  2.10 GBytes  18.0 Gbits/sec
+[  5]   3.00-4.00   sec  2.11 GBytes  18.1 Gbits/sec
+[  5]   4.00-5.00   sec  2.17 GBytes  18.6 Gbits/sec
+[  5]   5.00-6.00   sec  2.19 GBytes  18.8 Gbits/sec
+[  5]   6.00-7.00   sec  2.08 GBytes  17.9 Gbits/sec
+[  5]   7.00-8.00   sec  2.14 GBytes  18.4 Gbits/sec
+[  5]   8.00-9.00   sec  2.18 GBytes  18.7 Gbits/sec
+[  5]   9.00-10.00  sec  2.16 GBytes  18.6 Gbits/sec
+[  5]  10.00-10.00  sec  1.31 MBytes  9.05 Gbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-10.00  sec  21.4 GBytes  18.4 Gbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+```
