@@ -4,7 +4,7 @@ apt clean && \
 apt update && \
 DEBIAN_FRONTEND=noninteractive TZ="Asia/Shanghai" apt install -y \
 git ca-certificates \
-vim jq less bash-completion unzip sysstat ssh bat gawk grep sed \
+vim jq less bash-completion unzip sysstat ssh gawk grep sed \
 net-tools iputils-ping iproute2 dnsutils \
 iperf3 qperf \
 curl wget 
