@@ -60,8 +60,8 @@ Latency distribution:
 ```
 
 ```
---conns=100 --clients=1000 --total=100000
-# benchmark --endpoints="https://172.29.50.32:2379" --target-leader --conns=100 --clients=1000 put --key-size=8 --sequential-keys --total=100000 --val-size=256 --cacert=/etc/kubernetes/pki/etcd/ca.crt  --cert=/etc/kubernetes/pki/apiserver-etcd-client.crt --key=/etc/kubernetes/pki/apiserver-etcd-client.key
+# --conns=100 --clients=1000 --total=100000
+benchmark --endpoints="https://172.29.50.32:2379" --target-leader --conns=100 --clients=1000 put --key-size=8 --sequential-keys --total=100000 --val-size=256 --cacert=/etc/kubernetes/pki/etcd/ca.crt  --cert=/etc/kubernetes/pki/apiserver-etcd-client.crt --key=/etc/kubernetes/pki/apiserver-etcd-client.key
 
 
 INFO: 2021/03/22 10:34:45 [core] Channel Connectivity change to READY
