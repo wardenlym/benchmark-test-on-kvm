@@ -1,3 +1,5 @@
+ 正确的放
+ 
        /etc/modules-load.d/bridge.conf:
 
            br_netfilter
